@@ -108,9 +108,9 @@
                     <div class="widget-container wrapping-col single-centered">
 
                         <div class="btn-group uib-bs-flex widget uib_w_3 d-margins" data-uib="twitter%20bootstrap/button_group" data-ver="1">
-                            <button class="btn widget uib_w_4 btn-lg btn-default" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-th-list button-icon-left" data-position="left"></i>View Order</button>
+                            <button class="btn widget uib_w_4 btn-lg btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="view_order"><i class="glyphicon glyphicon-th-list button-icon-left" data-position="left"></i>View Order</button>
                             <button class="btn widget uib_w_5 btn-lg btn-default" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-home button-icon-left" data-position="left"></i>Home</button>
-                            <button class="btn widget uib_w_6 btn-lg btn-default" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-ok button-icon-left" data-position="left"></i>Submit</button>
+
                         </div>
                     </div>
                     <div class="widget-container content-area horiz-area wrapping-col left"></div>
@@ -119,7 +119,9 @@
                 <div class="inner-element uib_w_16 uib_sidebar leftbar bar-bg thumb-bg bar-gutter" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':200, 'side':'left', 'dur':200}">
                     <div class="sidebar-content content-area vertical-col">
 
-                        <button class="btn widget uib_w_19 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="back"><i class="glyphicon glyphicon-align-justify button-icon-left" data-position="left"></i>Back</button>
+                        <button class="btn widget uib_w_19 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="back"><i class="glyphicon glyphicon-remove button-icon-left" data-position="left"></i>Close</button>
+                        <button class="btn widget uib_w_20 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1">Menu</button>
+                        <button class="btn widget uib_w_21 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="vieworder">View Order</button>
                     </div>
                 </div>
             </div>
@@ -189,6 +191,28 @@
                     <div>
                         <p>View Orders</p>
                     </div>
+                </div>
+                <div class="grid grid-pad urow uib_row_1 row-height-1" data-uib="layout/row" data-ver="0">
+                    <div class="col uib_col_4 col-0_12-12" data-uib="layout/col" data-ver="0">
+                        <div class="widget-container content-area vertical-col">
+
+                            <div class="list-group widget uib_w_22 d-margins" data-uib="twitter%20bootstrap/list_group" data-ver="1">
+                                <a class="list-group-item allow-badge widget uib_w_23" data-uib="twitter%20bootstrap/list_item" data-ver="1">
+                                    <h4 class="list-group-item-heading">Heading</h4>
+                                    <p class="list-group-item-text">List item</p>
+                                </a>
+                                <a class="list-group-item allow-badge widget uib_w_24" data-uib="twitter%20bootstrap/list_item" data-ver="1">
+                                    <h4 class="list-group-item-heading">Heading</h4>
+                                    <p class="list-group-item-text">List item</p>
+                                </a>
+                                <a class="list-group-item allow-badge widget uib_w_25" data-uib="twitter%20bootstrap/list_item" data-ver="1">
+                                    <h4 class="list-group-item-heading">Heading</h4>
+                                    <p class="list-group-item-text">List item</p>
+                                </a>
+                            </div><span class="uib_shim"></span>
+                        </div>
+                    </div>
+                    <span class="uib_shim"></span>
                 </div>
             </div>
         </div>
